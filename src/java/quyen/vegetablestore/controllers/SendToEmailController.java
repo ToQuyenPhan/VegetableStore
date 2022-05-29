@@ -44,7 +44,7 @@ static final Logger LOGGER = Logger.getLogger(SendToEmailController.class);
                 properties.put("mail.smtp.starttls.enable", "true");
                 properties.put("mail.smtp.host", host);
                 properties.put("mail.smtp.user", sender);
-                properties.put("mail.smtp.password", "Quyenlh18032001");//mật khẩu
+                properties.put("mail.smtp.password", "********");//mật khẩu
                 properties.put("mail.smtp.port", "587");
                 properties.put("mail.smtp.auth", "true");
                 Session session = javax.mail.Session.getDefaultInstance(properties);
